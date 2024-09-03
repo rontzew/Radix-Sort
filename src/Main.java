@@ -64,7 +64,7 @@ public class Main {
         }
         System.out.print("Your numbers are, in order: ");
 
-        boolean ascending = (order == ASCENDING_ORDER ? true : false);
+        boolean ascending = (order == ASCENDING_ORDER);
         radixSort(nums, ascending);
         System.out.println(Arrays.toString(nums));
     }
