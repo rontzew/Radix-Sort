@@ -1,2 +1,3 @@
 # Radix-Sort
- Reverse Polish notation calculator
+
+Sorting algorithm that orders number starting from the last digit and going to the first.
