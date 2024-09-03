@@ -3,8 +3,9 @@ class RadixSortUtils {
     static int getMaxLen(int[] nums) {
         int maxLen = 0;
         for (int num : nums) {
-            if (RadixSortUtils.numLength(num) > maxLen) {
-                maxLen = RadixSortUtils.numLength(num);
+            int crrLen = RadixSortUtils.numLength(num);
+            if (crrLen > maxLen) {
+                maxLen = crrLen;
             }
         }
         return maxLen;
